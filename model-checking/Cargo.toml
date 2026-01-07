@@ -1,0 +1,12 @@
+[package]
+name = "model-checking-examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ananke-bdd = { path = "../bdd-rs/ananke-bdd" }
+model-checking = { path = "../bdd-rs/examples/model-checking" }
+
+[[example]]
+name = "elevator"
+path = "examples/elevator.rs"
